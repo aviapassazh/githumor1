@@ -1,0 +1,33 @@
+@font-face { font-family: "TimesET85n"; src: url("TimesET85n.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+::placeholder { color: rgb(170, 193, 243); }
+
+.protected-content {
+display: none;
+justify-content: center;
+align-items: center;
+}
+.lock-overlay {
+  justify-content: center;
+  align-items: center;
+}
+.password-form {
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+input[type="password"] {
+  background: transparent;
+  color: greenyellow;
+  font-family: "TimesET85n";
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button[type="submit"] {
+  background: transparent;
+  color: greenyellow;
+  font-family: "TimesET85n";
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

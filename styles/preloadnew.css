@@ -1,0 +1,30 @@
+.prob{ 
+position: absolute;
+text-align: center;
+margin-top: 8%;
+margin-left: 28%;
+padding: 1.2rem;
+width: 680px;
+height: 345px;
+z-index: 2;
+}
+.preloader { opacity: .6;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: #e9eee9;
+  z-index: 3;
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
+
